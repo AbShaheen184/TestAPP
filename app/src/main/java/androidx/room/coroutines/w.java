@@ -1,0 +1,24 @@
+package androidx.room.coroutines;
+
+/* JADX INFO: compiled from: r8-map-id-e67002de5a40c891c754bff9e68f2bf8edbc7d2191d59a60e5e311fc3b432df9 */
+/* JADX INFO: loaded from: classes.dex */
+public final class w extends kotlin.coroutines.jvm.internal.c {
+    public final /* synthetic */ a0 A;
+    public int B;
+    public androidx.room.z e;
+    public h y;
+    public /* synthetic */ Object z;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public w(a0 a0Var, kotlin.coroutines.jvm.internal.c cVar) {
+        super(cVar);
+        this.A = a0Var;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.a
+    public final Object invokeSuspend(Object obj) {
+        this.z = obj;
+        this.B |= Integer.MIN_VALUE;
+        return this.A.e(null, this);
+    }
+}

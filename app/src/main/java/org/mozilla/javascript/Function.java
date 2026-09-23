@@ -1,0 +1,10 @@
+package org.mozilla.javascript;
+
+/* JADX INFO: compiled from: r8-map-id-e67002de5a40c891c754bff9e68f2bf8edbc7d2191d59a60e5e311fc3b432df9 */
+/* JADX INFO: loaded from: classes.dex */
+public interface Function extends Scriptable, Callable, Constructable {
+    @Override // org.mozilla.javascript.Callable
+    Object call(Context context, Scriptable scriptable, Scriptable scriptable2, Object[] objArr);
+
+    Scriptable construct(Context context, Scriptable scriptable, Object[] objArr);
+}

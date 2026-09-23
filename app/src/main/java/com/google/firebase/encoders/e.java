@@ -1,0 +1,15 @@
+package com.google.firebase.encoders;
+
+/* JADX INFO: compiled from: r8-map-id-e67002de5a40c891c754bff9e68f2bf8edbc7d2191d59a60e5e311fc3b432df9 */
+/* JADX INFO: loaded from: classes.dex */
+public interface e {
+    e a(c cVar, boolean z);
+
+    e b(c cVar, long j);
+
+    e c(c cVar, int i);
+
+    e d(c cVar, double d);
+
+    e g(c cVar, Object obj);
+}

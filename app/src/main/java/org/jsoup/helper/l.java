@@ -1,0 +1,16 @@
+package org.jsoup.helper;
+
+import java.lang.reflect.Constructor;
+
+/* JADX INFO: compiled from: r8-map-id-e67002de5a40c891c754bff9e68f2bf8edbc7d2191d59a60e5e311fc3b432df9 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class l {
+    public static final Constructor a;
+
+    static {
+        try {
+            a = Class.forName("org.jsoup.helper.HttpClientExecutor").getConstructor(d.class, e.class);
+        } catch (Exception unused) {
+        }
+    }
+}

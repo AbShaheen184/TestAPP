@@ -1,0 +1,58 @@
+package androidx.compose.material3.internal;
+
+import androidx.compose.foundation.j1;
+import kotlinx.coroutines.CoroutineScope;
+import kotlinx.coroutines.sync.Mutex;
+
+/* JADX INFO: compiled from: r8-map-id-e67002de5a40c891c754bff9e68f2bf8edbc7d2191d59a60e5e311fc3b432df9 */
+/* JADX INFO: loaded from: classes.dex */
+public final class f0 extends kotlin.coroutines.jvm.internal.i implements kotlin.jvm.functions.p {
+    public int A;
+    public /* synthetic */ Object B;
+    public final /* synthetic */ j1 C;
+    public final /* synthetic */ g0 D;
+    public final /* synthetic */ kotlin.coroutines.jvm.internal.i E;
+    public Mutex e;
+    public Object y;
+    public g0 z;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    /* JADX WARN: Multi-variable type inference failed */
+    public f0(j1 j1Var, g0 g0Var, kotlin.jvm.functions.l lVar, kotlin.coroutines.d dVar) {
+        super(2, dVar);
+        this.C = j1Var;
+        this.D = g0Var;
+        this.E = (kotlin.coroutines.jvm.internal.i) lVar;
+    }
+
+    /* JADX WARN: Type inference failed for: r2v0, types: [kotlin.coroutines.jvm.internal.i, kotlin.jvm.functions.l] */
+    @Override // kotlin.coroutines.jvm.internal.a
+    public final kotlin.coroutines.d create(Object obj, kotlin.coroutines.d dVar) {
+        f0 f0Var = new f0(this.C, this.D, this.E, dVar);
+        f0Var.B = obj;
+        return f0Var;
+    }
+
+    @Override // kotlin.jvm.functions.p
+    public final Object invoke(Object obj, Object obj2) {
+        return ((f0) create((CoroutineScope) obj, (kotlin.coroutines.d) obj2)).invokeSuspend(kotlin.y.a);
+    }
+
+    /*  JADX ERROR: JadxRuntimeException in pass: ConstInlineVisitor
+        jadx.core.utils.exceptions.JadxRuntimeException: Unexpected instance arg in invoke
+        	at jadx.core.dex.visitors.ConstInlineVisitor.addExplicitCast(ConstInlineVisitor.java:285)
+        	at jadx.core.dex.visitors.ConstInlineVisitor.replaceArg(ConstInlineVisitor.java:267)
+        	at jadx.core.dex.visitors.ConstInlineVisitor.replaceConst(ConstInlineVisitor.java:177)
+        	at jadx.core.dex.visitors.ConstInlineVisitor.checkInsn(ConstInlineVisitor.java:110)
+        	at jadx.core.dex.visitors.ConstInlineVisitor.process(ConstInlineVisitor.java:55)
+        	at jadx.core.dex.visitors.ConstInlineVisitor.visit(ConstInlineVisitor.java:47)
+        */
+    @Override // kotlin.coroutines.jvm.internal.a
+    public final java.lang.Object invokeSuspend(java.lang.Object r10) {
+        /*
+            Method dump skipped, instruction units count: 222
+            To view this dump change 'Code comments level' option to 'DEBUG'
+        */
+        throw new UnsupportedOperationException("Method not decompiled: androidx.compose.material3.internal.f0.invokeSuspend(java.lang.Object):java.lang.Object");
+    }
+}

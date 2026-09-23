@@ -1,0 +1,16 @@
+package androidx.media3.exoplayer.upstream;
+
+import android.os.Handler;
+
+/* JADX INFO: compiled from: r8-map-id-e67002de5a40c891c754bff9e68f2bf8edbc7d2191d59a60e5e311fc3b432df9 */
+/* JADX INFO: loaded from: classes.dex */
+public final class c {
+    public final Handler a;
+    public final androidx.media3.exoplayer.analytics.g b;
+    public boolean c;
+
+    public c(Handler handler, androidx.media3.exoplayer.analytics.g gVar) {
+        this.a = handler;
+        this.b = gVar;
+    }
+}

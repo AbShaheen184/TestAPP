@@ -1,0 +1,15 @@
+package com.google.android.gms.common.internal;
+
+import android.os.Parcel;
+
+/* JADX INFO: compiled from: r8-map-id-e67002de5a40c891c754bff9e68f2bf8edbc7d2191d59a60e5e311fc3b432df9 */
+/* JADX INFO: loaded from: classes.dex */
+public final class u extends com.google.android.gms.internal.base.a implements w {
+    public final boolean J() {
+        Parcel parcelA = a(h(), 7);
+        int i = com.google.android.gms.internal.common.g.a;
+        boolean z = parcelA.readInt() != 0;
+        parcelA.recycle();
+        return z;
+    }
+}

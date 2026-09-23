@@ -1,0 +1,22 @@
+package androidx.compose.ui.input.pointer;
+
+/* JADX INFO: compiled from: r8-map-id-e67002de5a40c891c754bff9e68f2bf8edbc7d2191d59a60e5e311fc3b432df9 */
+/* JADX INFO: loaded from: classes.dex */
+public final class c0 {
+    public final int a;
+
+    public final boolean equals(Object obj) {
+        if (obj instanceof c0) {
+            return this.a == ((c0) obj).a;
+        }
+        return false;
+    }
+
+    public final int hashCode() {
+        return Integer.hashCode(this.a);
+    }
+
+    public final String toString() {
+        return "PointerKeyboardModifiers(packedValue=" + this.a + ')';
+    }
+}
